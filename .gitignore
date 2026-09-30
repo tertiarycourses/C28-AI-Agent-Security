@@ -1,0 +1,14 @@
+source-wsq/
+.DS_Store
+._*
+~$*
+assessment/
+**/assessment/
+.env
+.env.*
+__pycache__/
+*.pyc
+*.zip
+
+# local WSQ->non-WSQ conversion tooling (reads source-wsq/)
+scripts/
