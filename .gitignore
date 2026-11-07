@@ -1,14 +1,25 @@
-source-wsq/
 .DS_Store
 ._*
 ~$*
-assessment/
-**/assessment/
 .env
 .env.*
 __pycache__/
 *.pyc
 *.zip
 
-# local WSQ->non-WSQ conversion tooling (reads source-wsq/)
+# WSQ source clone and local conversion tooling: input only, never pushed
+source-wsq/
 scripts/
+archive-v1/
+**/archive/
+
+# Nothing assessment-related (no assessment in a non-WSQ course)
+assessment/
+**/assessment/
+**/FG_*
+**/FG-*
+**/Assessment_Plan_*
+
+# Learner lab outputs
+labs/*/outputs/*
+!labs/*/outputs/.gitkeep
